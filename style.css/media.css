@@ -1,0 +1,428 @@
+@media screen and (max-width: 576px) {
+    .container {
+        width: 330px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .header__info,
+    .header__call {
+        display: none;
+    }
+
+    .header {
+        background-image: url(img/фон2\ 1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+    }
+
+    .header__aside {
+        justify-content: space-around;
+        padding-top: 26px;
+        padding-bottom: 14px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .burger {
+        display: inherit;
+    }
+
+    .header__logo {
+        width: 60px;
+        height: 60px;
+        margin-right: 0;
+    }
+
+    .header__basket img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header__title {
+        font-family: Jura;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FCF1E7;
+        width: 219px;
+        margin-bottom: 20px;
+    }
+
+    .header__assortment {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 29px;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 9px;
+        color: #FCF1E7;
+        padding: 0;
+        margin-bottom: 81px;
+        border: 1px solid #FCF1E7;
+        box-sizing: border-box;
+    }
+
+    .assort_pic {
+        width: 15px;
+        margin-left: 10px;
+    }
+
+    .about__BandA {
+        background: #1C0F0F;
+    }
+
+    .about__pic {
+        display: none;
+    }
+
+    .about__desc {
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 16px;
+        color: #FCF1E7;
+        width: 329px;
+        margin-bottom: 30px;
+    }
+
+    .about__title {
+        font-family: Jura;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        color: #FCF1E7;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .about__button {
+        width: 82px;
+        height: 29px;
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 9px;
+        color: #FCF1E7;
+        border: 1px solid #FCF1E7;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        padding: 0;
+        margin-left: 117px;
+    }
+
+    .why__BandA,
+    .master {
+        background: white;
+    }
+
+    .why__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .why__title {
+        font-family: Jura;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        color: #1C0F0F;
+        width: 167px;
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .why__items {
+        width: 155px;
+        margin-bottom: 25px;
+    }
+
+    .why__items:not(:last-of-type) {
+        margin-right: 10px;
+    }
+
+    .why__name {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 18px;
+        color: #1C0F0F;
+        margin-bottom: 28px;
+    }
+
+    .why__desc {
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 16px;
+        color: #1C0F0F;
+    }
+
+    .master__pic {
+        position: absolute;
+        width: 241px;
+        height: 233px;
+        right: -110px;
+        z-index: 0;
+    }
+
+    .master__title {
+        padding-top: 25px;
+        font-family: Jura;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        color: #1C0F0F;
+        margin-bottom: 20px;
+        width: 249px;
+    }
+
+    .master__desc {
+        width: 166px;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 16px;
+        color: #1C0F0F;
+        margin-bottom: 10px;
+        z-index: 3;
+    }
+
+    .master__button {
+        width: 92px;
+        height: 29px;
+        padding: 0;
+        font-size: 8px;
+        line-height: 9px;
+        border: 1px solid #1C0F0F;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+
+    .master__wrapper {
+        padding-bottom: 50px;
+    }
+
+    .orders {
+        background: #1C0F0F;
+    }
+
+    .order__title {
+        font-size: 12px;
+        line-height: 14px;
+        width: 150px;
+        margin-bottom: 23px;
+        padding-top: 30px;
+    }
+
+    .rank {
+        width: 23px;
+        height: 23px;
+        margin-right: 15px;
+    }
+
+    .order__legend,
+    .second__title {
+        width: 251px;
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .second__title {
+        margin-bottom: 33px;
+    }
+
+    .order__form {
+        width: 292px;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 10px;
+        line-height: 16px;
+        padding-left: 10px;
+    }
+
+    .secondrow {
+        align-items: flex-start;
+        padding-bottom: 144px;
+    }
+
+    .second__button {
+        width: 69px;
+        height: 29px;
+        padding: 0;
+        font-size: 8px;
+        line-height: 9px;
+        border: 1px solid #FCF1E7;
+        box-sizing: border-box;
+    }
+
+    .orders__img {
+        display: none;
+    }
+
+    .orders__img2 {
+        top: 360px;
+        left: -5%;
+        position: absolute;
+        display: block;
+        width: 185px;
+        height: 150px;
+    }
+
+    .orders__img3 {
+        top: 360px;
+        right: -10%;
+        position: absolute;
+        display: block;
+        width: 185px;
+        height: 150px;
+    }
+
+    .container__orders {
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    #phone,
+    #name,
+    #email {
+
+        width: 282px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    #comment {
+        width: 282px;
+        margin-bottom: 20px;
+        height: 40px;
+    }
+
+    .adress,
+    .insta {
+        background: white;
+    }
+
+    .adress__img {
+        display: none;
+    }
+
+    .adress__title {
+        padding-top: 50px;
+        width: 46px;
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 20px;
+    }
+
+    .adress__adress {
+        font-size: 10px;
+        line-height: 16px;
+        width: 250px;
+        padding-top: 10px;
+    }
+
+    .adress__list li {
+        background: url(img/Frame\ 142mini.svg) no-repeat left center;
+        height: 30px;
+        padding-left: 55px;
+    }
+
+    .adress_icon:not(:last-of-type) {
+        margin-bottom: 14px;
+    }
+
+    .adress__list {
+        width: 283px;
+        padding-top: 0;
+    }
+
+    .adress__wrapper {
+        margin-bottom: 50px;
+    }
+
+    .insta__title {
+        width: 96px;
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 20px;
+    }
+
+    .insta__wrapper img {
+        width: 107px;
+        height: inherit;
+        margin-bottom: 5px;
+    }
+
+    .insta__wrapper {
+        padding-bottom: 60px;
+    }
+
+    .footer__logo {
+        width: 70px;
+        height: inherit;
+        padding-top: 30px;
+        margin-right: 0;
+    }
+
+    .wrapper__logo,
+    .footer__items {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .footer__items {
+        width: 320px;
+    }
+
+    .footer__desc:not(:last-of-type) {
+        margin-bottom: 35px;
+    }
+
+    .footer__left {
+        margin-bottom: 35px;
+    }
+
+    .footer__desc {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .footer__left,
+    .footer__right {
+        width: 91px;
+        text-align: center;
+    }
+
+    .container__footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper__welcome {
+        margin-top: 50px;
+    }
+
+    .welcome__desc {
+        width: 236px;
+        font-size: 11px;
+        line-height: 18px;
+        margin-bottom: 30px;
+    }
+
+    .welcome__pic svg {
+        width: 30px;
+        height: inherit;
+    }
+
+    .welcome__pic {
+        width: 150px;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+}

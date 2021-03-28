@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css/styles.css">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>BEFORE AND AFTER | Catalog</title>
+</head>
+<body>
+<main>
+    <section class="header">
+        <div class="container container__header">
+            <aside class="header__aside">
+                <img src="styles.css/img/логотип_20 2.svg" alt="Logo" class="header__logo">
+                <div class="header__info">
+                    <p class="header__about">О компании</p>
+                    <p class="header__product">Продукция</p>
+                    <p class="header__faq">FAQ</p>
+                    <p class="header__contacts">Контакты</p>
+                </div>
+                <div class="header__buttons">
+                    <button class="header__call"><img src="styles.css/img/Frame 141.svg" alt="call"></button>
+                    <button class="header__basket"><img src="styles.css/img/Frame 138.svg" alt="basket"></button>
+                </div>
+            </aside>
+            <div class="header__wrapper">
+                <h1 class="header__title">КАТАЛОГ</h1>
+            </div>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container container__catalog">
+            <div class="title__wrapper">
+            <h4 class="catalog__title"><a href="../index.html">Главная</a></h4>
+            <p class="catalog__catalog"><a>Каталог</a></p>
+        </div>
+            <div class="catalog__wrapper">
+                <div class="catalog__box">
+                    <a href="#"><p class="box__title">Кексы</p></a>
+                    <a href="#"><img class="box__img" src="styles.css/img/Rectangle 62.jpg" alt="keks"></a>
+                </div>
+                <div class="catalog__box">
+                    <a href="#"><p class="box__title">Хлеб</p></a>
+                    <a href="#"><img class="box__img" src="styles.css/img/Rectangle 63.jpg" alt="Хлеб"></a>
+                </div>
+                <div class="catalog__box">
+                    <a href="#"><p class="box__title">Печенья</p></a>
+                    <a href="#"><img class="box__img" src="styles.css/img/Rectangle 60.jpg" alt="Печенья"></a>
+                </div>
+                <div class="catalog__box">
+                    <a href="#"><p class="box__title">Круассаны</p></a>
+                    <a href="#"><img class="box__img" src="styles.css/img/Rectangle 58.jpg" alt="Круассаны"></a>
+                </div>
+                <div class="catalog__box">
+                    <a href="#"><p class="box__title">Крендели</p></a>
+                    <a href="#"><img class="box__img" src="styles.css/img/Rectangle 59.jpg" alt="Крендели"></a>
+                </div>
+                <div class="catalog__box">
+                    <a href="#"><p class="box__title">VEGAN</p></a>
+                    <a href="#"><img class="box__img" src="styles.css/img/Rectangle 61.jpg" alt="VEGAN"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="orders">
+        <div class="container container__orders">
+            <h2 class="order__title">Корпоративные заказы и кейтеринг</h2>
+            <div class="order__wrapper">
+                <div class="order_firstrow">
+                    <svg class="rank" width="70" height="70" viewBox="0 0 70 70" fill="none">
+                        <circle cx="35" cy="35" r="34" stroke="#FCF1E7" stroke-width="2"/>
+                        <path d="M36.88 50C35.76 50 35.2 49.44 35.2 48.32V27.68L36.12 27.04L31.72 31.16C31.3867 31.48 31.0333 31.6733 30.66 31.74C30.2867 31.7933 29.92 31.64 29.56 31.28C28.84 30.56 28.88 29.8 29.68 29L35.04 23.72C35.6 23.16 36.2933 22.88 37.12 22.88C38.08 22.88 38.56 23.44 38.56 24.56V48.32C38.56 49.44 38 50 36.88 50Z" fill="#FCF1E7"/>
+                    </svg>  
+                    <form class="order__form" action="">
+                        <fieldset>
+                            <legend class="order__legend">Напишите контактные данные и комментарии заказа.</legend>
+                            <div>
+                                <lable class="phone" for='phone'></lable>
+                                <input id="phone" type="text" placeholder="Телефон*" required>
+                            </div>
+                            <div>
+                                <lable class="name" for='name'></lable>
+                                <input id="name" type="text" placeholder="Ваше имя*" required>
+                            </div>
+                            <div>
+                                <lable class="email" for='email'></lable>
+                                <input id="email" type="email" placeholder="Email*" required>
+                            </div>
+                            <div>
+                                <p><textarea id="comment" rows="10" name="Комментарий" placeholder="Комментарий"></textarea></p>
+                            </div>
+                        </fieldset>
+                    </form>  
+                </div>
+                <div class="secondrow">
+                    <svg class="rank" width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="35" cy="35" r="34" stroke="#FCF1E7" stroke-width="2"/>
+                        <path d="M41.84 50H26.88C25.7333 50 25.16 49.44 25.16 48.32C25.16 46.5333 25.44 45.0133 26 43.76C26.5733 42.4933 27.3 41.4267 28.18 40.56C29.0733 39.68 30.02 38.94 31.02 38.34C32.02 37.7267 32.9467 37.1733 33.8 36.68C35.28 35.84 36.5133 35.1133 37.5 34.5C38.5 33.8867 39.2467 33.26 39.74 32.62C40.2333 31.98 40.48 31.2 40.48 30.28C40.48 28.6933 40.1933 27.6267 39.62 27.08C39.06 26.52 38 26.24 36.44 26.24H32.16C30.9067 26.24 29.98 26.4067 29.38 26.74C28.78 27.0733 28.4 27.6933 28.24 28.6C28.1467 29.1333 27.9667 29.54 27.7 29.82C27.4333 30.1 27.0267 30.24 26.48 30.24C25.92 30.24 25.4933 30.0933 25.2 29.8C24.9067 29.4933 24.7867 29.0533 24.84 28.48C25.12 26.6 25.86 25.2 27.06 24.28C28.26 23.3467 29.96 22.88 32.16 22.88H36.44C38.9467 22.88 40.8067 23.4867 42.02 24.7C43.2333 25.9133 43.84 27.7733 43.84 30.28C43.84 31.88 43.4467 33.22 42.66 34.3C41.8733 35.3667 40.84 36.3133 39.56 37.14C38.28 37.9533 36.9067 38.7733 35.44 39.6C34.3733 40.2133 33.36 40.8267 32.4 41.44C31.4533 42.0533 30.64 42.7667 29.96 43.58C29.2933 44.3933 28.8533 45.4133 28.64 46.64H41.84C42.96 46.64 43.52 47.2 43.52 48.32C43.52 49.44 42.96 50 41.84 50Z" fill="#FCF1E7"/>
+                    </svg>
+                        <div class="secondrow__wrapper">
+                            <p class="second__title">Отправьте данные, и мы начнём готовить ваш заказ.</p>
+                            <button class="second__button">Отправить</button>
+                        </div>
+                </div>
+            </div>
+
+           
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container container__footer">
+        <div class="wrapper__logo">
+            <img src="styles.css/img/логотип_20 2.svg" alt="Logo" class="footer__logo">
+            <div class="footer__items">
+                <div class="footer__left">
+                    <p class="footer__desc"><a>Продукция</a></p>
+                    <p class="footer__desc"><a>Мастер-классы</a></p>
+                    <p class="footer__desc"><a>FAQ</a></p>
+                </div>
+                <div class="footer__right">
+                    <p class="footer__desc"><a>Доставка/оплата</a></p>
+                    <p class="footer__desc"><a>Контакты</a></p>
+                    <p class="footer__desc"><a>Вакансии</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper__welcome">
+            <p class="welcome__desc">с 08:00 до 20:00 Каждый день печём для вас. </p>
+            <p class="welcome__desc">Добро пожаловать в наши социальные сети</p>
+            <div class="welcome__pic">
+                <svg width="55" height="57" viewBox="0 0 55 57" fill="none">
+                    <rect x="1" y="1" width="53" height="53" rx="4" stroke="#FCF1E7" stroke-width="2"/>
+                    <path d="M27.6387 53H25.6387V55H27.6387V53ZM27.6387 31.7598H29.6387V29.7598H27.6387V31.7598ZM23.708 31.7598H21.708V33.7598H23.708V31.7598ZM23.708 26.584V24.584H21.708V26.584H23.708ZM27.6387 26.584V28.584H29.6387V26.584H27.6387ZM30.1777 17.4531L31.564 18.8948L31.5642 18.8945L30.1777 17.4531ZM40.9199 15.4756L42.9197 15.5024L42.9414 13.8881L41.368 13.5264L40.9199 15.4756ZM40.8467 20.9443L40.3616 22.8846L42.8127 23.4974L42.8465 20.9711L40.8467 20.9443ZM34.7188 26.584H32.7188V28.584H34.7188V26.584ZM39.9678 26.584H41.9678V24.584H39.9678V26.584ZM39.9678 31.7598V33.7598H41.9678V31.7598H39.9678ZM34.7188 31.7598V29.7598H32.7188V31.7598H34.7188ZM34.7188 53V55H36.7188V53H34.7188ZM29.6387 53V31.7598H25.6387V53H29.6387ZM27.6387 29.7598H23.708V33.7598H27.6387V29.7598ZM25.708 31.7598V26.584H21.708V31.7598H25.708ZM23.708 28.584H27.6387V24.584H23.708V28.584ZM29.6387 26.584V24.3379H25.6387V26.584H29.6387ZM29.6387 24.3379C29.6387 21.769 30.3602 20.0523 31.564 18.8948L28.7915 16.0115C26.6099 18.1092 25.6387 20.9823 25.6387 24.3379H29.6387ZM31.5642 18.8945C32.8016 17.7043 34.6322 16.9873 37.3311 16.9873V12.9873C33.9101 12.9873 30.9718 13.9142 28.7912 16.0117L31.5642 18.8945ZM37.3311 16.9873C38.103 16.9873 39.1389 17.1183 40.4718 17.4247L41.368 13.5264C39.8689 13.1818 38.5123 12.9873 37.3311 12.9873V16.9873ZM38.9201 15.4488L38.8469 20.9176L42.8465 20.9711L42.9197 15.5024L38.9201 15.4488ZM41.3318 19.0041C40.538 18.8056 39.6482 18.7246 38.6982 18.7246V22.7246C39.441 22.7246 39.9834 22.7901 40.3616 22.8846L41.3318 19.0041ZM38.6982 18.7246C37.0939 18.7246 35.5184 19.0986 34.3448 20.2002C33.1475 21.3241 32.7188 22.873 32.7188 24.46H36.7188C36.7188 23.5567 36.9533 23.2379 37.0824 23.1167C37.2353 22.9731 37.6496 22.7246 38.6982 22.7246V18.7246ZM32.7188 24.46V26.584H36.7188V24.46H32.7188ZM34.7188 28.584H39.9678V24.584H34.7188V28.584ZM37.9678 26.584V31.7598H41.9678V26.584H37.9678ZM39.9678 29.7598H34.7188V33.7598H39.9678V29.7598ZM32.7188 31.7598V53H36.7188V31.7598H32.7188ZM34.7188 51H27.6387V55H34.7188V51Z" fill="#FCF1E7"/>
+                </svg>
+                <svg width="55" height="55" viewBox="0 0 55 55" fill="none">
+                    <rect x="1" y="1" width="53" height="53" rx="4" stroke="#FCF1E7" stroke-width="2"/>
+                    <path d="M35.2496 27.2201C35.9543 27.5969 35.9543 28.6072 35.2496 28.9839L24.9612 34.4839C24.2951 34.84 23.4898 34.3574 23.4898 33.602L23.4898 22.602C23.4898 21.8467 24.2951 21.364 24.9612 21.7202L35.2496 27.2201Z" stroke="#FCF1E7" stroke-width="2"/>
+                    <path d="M9.17356 23.8993C9.6016 19.0195 13.167 15.2329 18.0034 14.608C20.6936 14.2605 24.0665 14 28.1345 14C32.1891 14 35.5237 14.2588 38.1694 14.6044C42.9061 15.2232 46.3755 18.9437 46.8119 23.7362C46.9268 24.9992 46.9999 26.336 47 27.6924C46.9958 29.1696 46.9069 30.6078 46.7732 31.9441C46.324 36.4309 43.158 39.9419 38.7566 40.6255C36.0372 41.0478 32.5153 41.3784 28.1324 41.3876C23.6901 41.3969 20.098 41.0626 17.3197 40.6309C12.8712 39.9398 9.65536 36.398 9.21234 31.8729C9.08353 30.5572 9 29.1443 9 27.6939C9 26.3953 9.06696 25.1146 9.17356 23.8993Z" stroke="#FCF1E7" stroke-width="2"/>
+                </svg>
+                <svg width="55" height="55" viewBox="0 0 55 55" fill="none">
+                    <rect x="1" y="1" width="53" height="53" rx="4" stroke="#FCF1E7" stroke-width="2"/>
+                    <rect x="9" y="9" width="38" height="38" rx="11" stroke="#FCF1E7" stroke-width="2"/>
+                    <circle cx="28" cy="28" r="9" stroke="#FCF1E7" stroke-width="2"/>
+                    <circle cx="38.5" cy="16.5" r="1.5" stroke="#FCF1E7" stroke-width="2"/>
+                </svg>      
+            </div>
+        </div>
+    </div>
+  </footer>  
+</body>
+</html>
